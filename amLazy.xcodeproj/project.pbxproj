@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E8F744F2BDF3CE000C9C02D /* amLazyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */; };
+		5E8F74512BDF3CE000C9C02D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F74502BDF3CE000C9C02D /* ContentView.swift */; };
+		5E8F74532BDF3CE100C9C02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F74522BDF3CE100C9C02D /* Assets.xcassets */; };
+		5E8F74562BDF3CE100C9C02D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F74552BDF3CE100C9C02D /* Preview Assets.xcassets */; };
+		5E8F74612BDF3CE100C9C02D /* amLazyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F74602BDF3CE100C9C02D /* amLazyTests.swift */; };
+		5E8F746B2BDF3CE100C9C02D /* amLazyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F746A2BDF3CE100C9C02D /* amLazyUITests.swift */; };
+		5E8F746D2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F746C2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E8F745D2BDF3CE100C9C02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8F74432BDF3CE000C9C02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8F744A2BDF3CE000C9C02D;
+			remoteInfo = amLazy;
+		};
+		5E8F74672BDF3CE100C9C02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E8F74432BDF3CE000C9C02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E8F744A2BDF3CE000C9C02D;
+			remoteInfo = amLazy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E8F744B2BDF3CE000C9C02D /* amLazy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amLazy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyApp.swift; sourceTree = "<group>"; };
+		5E8F74502BDF3CE000C9C02D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E8F74522BDF3CE100C9C02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E8F74552BDF3CE100C9C02D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E8F74572BDF3CE100C9C02D /* amLazy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = amLazy.entitlements; sourceTree = "<group>"; };
+		5E8F745C2BDF3CE100C9C02D /* amLazyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amLazyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8F74602BDF3CE100C9C02D /* amLazyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyTests.swift; sourceTree = "<group>"; };
+		5E8F74662BDF3CE100C9C02D /* amLazyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amLazyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E8F746A2BDF3CE100C9C02D /* amLazyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyUITests.swift; sourceTree = "<group>"; };
+		5E8F746C2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E8F74482BDF3CE000C9C02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F74592BDF3CE100C9C02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F74632BDF3CE100C9C02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E8F74422BDF3CE000C9C02D = {
+			isa = PBXGroup;
+			children = (
+				5E8F744D2BDF3CE000C9C02D /* amLazy */,
+				5E8F745F2BDF3CE100C9C02D /* amLazyTests */,
+				5E8F74692BDF3CE100C9C02D /* amLazyUITests */,
+				5E8F744C2BDF3CE000C9C02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E8F744C2BDF3CE000C9C02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F744B2BDF3CE000C9C02D /* amLazy.app */,
+				5E8F745C2BDF3CE100C9C02D /* amLazyTests.xctest */,
+				5E8F74662BDF3CE100C9C02D /* amLazyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E8F744D2BDF3CE000C9C02D /* amLazy */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */,
+				5E8F74502BDF3CE000C9C02D /* ContentView.swift */,
+				5E8F74522BDF3CE100C9C02D /* Assets.xcassets */,
+				5E8F74572BDF3CE100C9C02D /* amLazy.entitlements */,
+				5E8F74542BDF3CE100C9C02D /* Preview Content */,
+			);
+			path = amLazy;
+			sourceTree = "<group>";
+		};
+		5E8F74542BDF3CE100C9C02D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F74552BDF3CE100C9C02D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E8F745F2BDF3CE100C9C02D /* amLazyTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F74602BDF3CE100C9C02D /* amLazyTests.swift */,
+			);
+			path = amLazyTests;
+			sourceTree = "<group>";
+		};
+		5E8F74692BDF3CE100C9C02D /* amLazyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F746A2BDF3CE100C9C02D /* amLazyUITests.swift */,
+				5E8F746C2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift */,
+			);
+			path = amLazyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E8F744A2BDF3CE000C9C02D /* amLazy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8F74702BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazy" */;
+			buildPhases = (
+				5E8F74472BDF3CE000C9C02D /* Sources */,
+				5E8F74482BDF3CE000C9C02D /* Frameworks */,
+				5E8F74492BDF3CE000C9C02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amLazy;
+			productName = amLazy;
+			productReference = 5E8F744B2BDF3CE000C9C02D /* amLazy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E8F745B2BDF3CE100C9C02D /* amLazyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8F74732BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazyTests" */;
+			buildPhases = (
+				5E8F74582BDF3CE100C9C02D /* Sources */,
+				5E8F74592BDF3CE100C9C02D /* Frameworks */,
+				5E8F745A2BDF3CE100C9C02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8F745E2BDF3CE100C9C02D /* PBXTargetDependency */,
+			);
+			name = amLazyTests;
+			productName = amLazyTests;
+			productReference = 5E8F745C2BDF3CE100C9C02D /* amLazyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E8F74652BDF3CE100C9C02D /* amLazyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E8F74762BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazyUITests" */;
+			buildPhases = (
+				5E8F74622BDF3CE100C9C02D /* Sources */,
+				5E8F74632BDF3CE100C9C02D /* Frameworks */,
+				5E8F74642BDF3CE100C9C02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E8F74682BDF3CE100C9C02D /* PBXTargetDependency */,
+			);
+			name = amLazyUITests;
+			productName = amLazyUITests;
+			productReference = 5E8F74662BDF3CE100C9C02D /* amLazyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E8F74432BDF3CE000C9C02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5E8F744A2BDF3CE000C9C02D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5E8F745B2BDF3CE100C9C02D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E8F744A2BDF3CE000C9C02D;
+					};
+					5E8F74652BDF3CE100C9C02D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E8F744A2BDF3CE000C9C02D;
+					};
+				};
+			};
+			buildConfigurationList = 5E8F74462BDF3CE000C9C02D /* Build configuration list for PBXProject "amLazy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E8F74422BDF3CE000C9C02D;
+			productRefGroup = 5E8F744C2BDF3CE000C9C02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E8F744A2BDF3CE000C9C02D /* amLazy */,
+				5E8F745B2BDF3CE100C9C02D /* amLazyTests */,
+				5E8F74652BDF3CE100C9C02D /* amLazyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E8F74492BDF3CE000C9C02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8F74562BDF3CE100C9C02D /* Preview Assets.xcassets in Resources */,
+				5E8F74532BDF3CE100C9C02D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F745A2BDF3CE100C9C02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F74642BDF3CE100C9C02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E8F74472BDF3CE000C9C02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8F74512BDF3CE000C9C02D /* ContentView.swift in Sources */,
+				5E8F744F2BDF3CE000C9C02D /* amLazyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F74582BDF3CE100C9C02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8F74612BDF3CE100C9C02D /* amLazyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E8F74622BDF3CE100C9C02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8F746D2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift in Sources */,
+				5E8F746B2BDF3CE100C9C02D /* amLazyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E8F745E2BDF3CE100C9C02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8F744A2BDF3CE000C9C02D /* amLazy */;
+			targetProxy = 5E8F745D2BDF3CE100C9C02D /* PBXContainerItemProxy */;
+		};
+		5E8F74682BDF3CE100C9C02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E8F744A2BDF3CE000C9C02D /* amLazy */;
+			targetProxy = 5E8F74672BDF3CE100C9C02D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E8F746E2BDF3CE100C9C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E8F746F2BDF3CE100C9C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5E8F74712BDF3CE100C9C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = amLazy/amLazy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"amLazy/Preview Content\"";
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E8F74722BDF3CE100C9C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = amLazy/amLazy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"amLazy/Preview Content\"";
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E8F74742BDF3CE100C9C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amLazy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amLazy";
+			};
+			name = Debug;
+		};
+		5E8F74752BDF3CE100C9C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amLazy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amLazy";
+			};
+			name = Release;
+		};
+		5E8F74772BDF3CE100C9C02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = amLazy;
+			};
+			name = Debug;
+		};
+		5E8F74782BDF3CE100C9C02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LY5Y75F8W9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BirdLaw.amLazyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = amLazy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E8F74462BDF3CE000C9C02D /* Build configuration list for PBXProject "amLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8F746E2BDF3CE100C9C02D /* Debug */,
+				5E8F746F2BDF3CE100C9C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8F74702BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8F74712BDF3CE100C9C02D /* Debug */,
+				5E8F74722BDF3CE100C9C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8F74732BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8F74742BDF3CE100C9C02D /* Debug */,
+				5E8F74752BDF3CE100C9C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E8F74762BDF3CE100C9C02D /* Build configuration list for PBXNativeTarget "amLazyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8F74772BDF3CE100C9C02D /* Debug */,
+				5E8F74782BDF3CE100C9C02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E8F74432BDF3CE000C9C02D /* Project object */;
+}
