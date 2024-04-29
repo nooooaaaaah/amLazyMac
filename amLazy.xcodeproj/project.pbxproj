@@ -48,6 +48,7 @@
 		5E8F74662BDF3CE100C9C02D /* amLazyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amLazyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8F746A2BDF3CE100C9C02D /* amLazyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyUITests.swift; sourceTree = "<group>"; };
 		5E8F746C2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EF68C282BDF9305009E43E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		5E8F74422BDF3CE000C9C02D = {
 			isa = PBXGroup;
 			children = (
+				5EF68C282BDF9305009E43E0 /* .gitignore */,
 				5E8F744D2BDF3CE000C9C02D /* amLazy */,
 				5E8F745F2BDF3CE100C9C02D /* amLazyTests */,
 				5E8F74692BDF3CE100C9C02D /* amLazyUITests */,
