@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E59E20D2BDF413C0082F285 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59E20C2BDF413C0082F285 /* Api.swift */; };
 		5E8F744F2BDF3CE000C9C02D /* amLazyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */; };
 		5E8F74512BDF3CE000C9C02D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F74502BDF3CE000C9C02D /* ContentView.swift */; };
 		5E8F74532BDF3CE100C9C02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F74522BDF3CE100C9C02D /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E59E20C2BDF413C0082F285 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		5E8F744B2BDF3CE000C9C02D /* amLazy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amLazy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amLazyApp.swift; sourceTree = "<group>"; };
 		5E8F74502BDF3CE000C9C02D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E59E20B2BDF41000082F285 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E59E20C2BDF413C0082F285 /* Api.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		5E8F74422BDF3CE000C9C02D = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +105,10 @@
 		5E8F744D2BDF3CE000C9C02D /* amLazy */ = {
 			isa = PBXGroup;
 			children = (
-				5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */,
-				5E8F74502BDF3CE000C9C02D /* ContentView.swift */,
+				5E8F74542BDF3CE100C9C02D /* Preview Content */,
+				5E8F747B2BDF3E6100C9C02D /* Sources */,
 				5E8F74522BDF3CE100C9C02D /* Assets.xcassets */,
 				5E8F74572BDF3CE100C9C02D /* amLazy.entitlements */,
-				5E8F74542BDF3CE100C9C02D /* Preview Content */,
 			);
 			path = amLazy;
 			sourceTree = "<group>";
@@ -127,6 +136,32 @@
 				5E8F746C2BDF3CE100C9C02D /* amLazyUITestsLaunchTests.swift */,
 			);
 			path = amLazyUITests;
+			sourceTree = "<group>";
+		};
+		5E8F74792BDF3D0300C9C02D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5E8F747A2BDF3D1000C9C02D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F74502BDF3CE000C9C02D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E8F747B2BDF3E6100C9C02D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E59E20B2BDF41000082F285 /* Helpers */,
+				5E8F747A2BDF3D1000C9C02D /* View */,
+				5E8F74792BDF3D0300C9C02D /* App */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 5E8F74422BDF3CE000C9C02D;
+			packageReferences = (
+				5E59E20E2BDF44530082F285 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */,
+			);
 			productRefGroup = 5E8F744C2BDF3CE000C9C02D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59E20D2BDF413C0082F285 /* Api.swift in Sources */,
 				5E8F74512BDF3CE000C9C02D /* ContentView.swift in Sources */,
 				5E8F744F2BDF3CE000C9C02D /* amLazyApp.swift in Sources */,
 			);
@@ -581,6 +620,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E59E20E2BDF44530082F285 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jamesrochabrun/SwiftOpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 5E8F74432BDF3CE000C9C02D /* Project object */;
 }
