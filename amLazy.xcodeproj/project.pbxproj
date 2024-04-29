@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5E59E20D2BDF413C0082F285 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E59E20C2BDF413C0082F285 /* Api.swift */; };
+		5E59E2102BDF7E800082F285 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5E59E20F2BDF7E800082F285 /* SwiftOpenAI */; };
 		5E8F744F2BDF3CE000C9C02D /* amLazyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F744E2BDF3CE000C9C02D /* amLazyApp.swift */; };
 		5E8F74512BDF3CE000C9C02D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F74502BDF3CE000C9C02D /* ContentView.swift */; };
 		5E8F74532BDF3CE100C9C02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F74522BDF3CE100C9C02D /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E59E2102BDF7E800082F285 /* SwiftOpenAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +182,9 @@
 			dependencies = (
 			);
 			name = amLazy;
+			packageProductDependencies = (
+				5E59E20F2BDF7E800082F285 /* SwiftOpenAI */,
+			);
 			productName = amLazy;
 			productReference = 5E8F744B2BDF3CE000C9C02D /* amLazy.app */;
 			productType = "com.apple.product-type.application";
@@ -631,6 +636,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E59E20F2BDF7E800082F285 /* SwiftOpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E59E20E2BDF44530082F285 /* XCRemoteSwiftPackageReference "SwiftOpenAI" */;
+			productName = SwiftOpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E8F74432BDF3CE000C9C02D /* Project object */;
 }
